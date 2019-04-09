@@ -1,0 +1,35 @@
+header{
+    height: 10em;
+    background-color: lightgrey;
+}
+nav{
+    height: 3em;
+    background-color: lightblue
+}
+footer{
+    height: 2em;
+    background-color: lightblue;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+#bodyimage{
+    display: inline;
+    margin: 1em;
+}
+p{
+    display: inline;
+}
+#main{
+    display: block;
+    height: 100%;
+    background-color: lightgray;
+    
+}
+#bodytext{
+    margin: 1em;
+    display: inline;
+    vertical-align: top;
+}
