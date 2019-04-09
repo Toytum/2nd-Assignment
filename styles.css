@@ -1,5 +1,7 @@
 header{
     height: 10em;
+    background-image: url("https://cdn.cnn.com/cnnnext/dam/assets/170407220916-04-iconic-mountains-matterhorn-restricted.jpg");
+    background-position-y: -20em;
     background-color: lightgrey;
 }
 nav{
@@ -16,15 +18,21 @@ footer{
     text-align: center;
 }
 #bodyimage{
+    float: left;
     display: inline;
     margin: 1em;
+    border-style: solid;
+    border-color: lightblue;
+    border-radius: 10%;
 }
 p{
     display: inline;
 }
 #main{
     display: block;
-    height: 100%;
+    padding: 1%;
+    height: 30em;
+    border: outset;
     background-color: lightgray;
     
 }
@@ -32,4 +40,13 @@ p{
     margin: 1em;
     display: inline;
     vertical-align: top;
+}
+li{
+    margin: 0;
+    padding: 1em 0 1em 2em;
+    list-style: none;
+    background-image: url("arrow.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 2em;
 }
