@@ -1,46 +1,79 @@
 header{
-    height: 10em;
+    text-align: center;
+	height: 10em;
     background-image: url("https://cdn.cnn.com/cnnnext/dam/assets/170407220916-04-iconic-mountains-matterhorn-restricted.jpg");
     background-position-y: -20em;
     background-color: lightgrey;
 }
+
 nav{
-    height: 3em;
+    text-align: center;
+	height: 3em;
     background-color: lightblue
 }
+
 footer{
-    height: 2em;
+    height: 1.5em;
     background-color: lightblue;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
+    margin-top: 2em;
+    padding: 1em;
 }
+
 #bodyimage{
     float: left;
     display: inline;
-    margin: 1em;
+    margin: 4em;
     border-style: solid;
     border-color: lightblue;
     border-radius: 10%;
+	box-shadow: 2em 2em 1em grey;
 }
+
 p{
     display: inline;
 }
+body{
+
+}
 #main{
+    position: relative;
+    margin-left: 2em;
+    margin-right: 2em;
+    top: -5.5em;
     display: block;
-    padding: 1%;
-    height: 30em;
+    padding: 1%; 
     border: outset;
-    background-color: lightgray;
+    border-color: lightblue;
+    /* background-color: lightgray; */
     
 }
-#bodytext{
-    margin: 1em;
-    display: inline;
-    vertical-align: top;
+
+#headertext{
+    position: relative;
+    top: -0.85em;
+    font-size: 5em;
+    font-family: Arial, sans-serif;
+    letter-spacing: 2px;
+    color: orangered;
+    text-align: center;
 }
+
+#bodytext{
+    margin: 1.5em;
+    display: inline;
+    font-size: 1.6em;
+}
+
+#listheader{
+    margin-top: 2em;
+    padding: 1em 0 1em 2em;
+}
+
 li{
     margin: 0;
     padding: 1em 0 1em 2em;
@@ -49,4 +82,20 @@ li{
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 2em;
+}
+
+a{
+    margin: 1.5em;
+    text-decoration: none;
+    color: blue;
+    position: relative;
+    top: 1em;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: purple;
 }
