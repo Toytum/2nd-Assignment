@@ -1,20 +1,24 @@
+body{
+    background-image: url(background.jpg);
+    background-repeat: repeat;
+}
+
 header{
     text-align: center;
-	height: 10em;
-    background-image: url("https://cdn.cnn.com/cnnnext/dam/assets/170407220916-04-iconic-mountains-matterhorn-restricted.jpg");
+    height: 12em;
+    background-image: url("https://cdn.cnn.com/cnnnext/dam/assets/170407220916-04-iconic-mountains-matterhorn-restricted.jpg"); 
     background-position-y: -20em;
-    background-color: lightgrey;
 }
 
 nav{
     text-align: center;
 	height: 3em;
-    background-color: lightblue
+    background-color: orange;
 }
 
 footer{
     height: 1.5em;
-    background-color: lightblue;
+    background-color: orange;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -37,9 +41,7 @@ footer{
 p{
     display: inline;
 }
-body{
 
-}
 #main{
     position: relative;
     margin-left: 2em;
@@ -49,13 +51,15 @@ body{
     padding: 1%; 
     border: outset;
     border-color: lightblue;
-    /* background-color: lightgray; */
+    border-width: 0 0.2em 0.2em 0.2em;
+    box-shadow: 2em 2em 1em -1em grey;
+    
     
 }
 
 #headertext{
     position: relative;
-    top: -0.85em;
+    top: -0.9em;
     font-size: 5em;
     font-family: Arial, sans-serif;
     letter-spacing: 2px;
@@ -85,7 +89,7 @@ li{
 }
 
 a{
-    margin: 1.5em;
+    margin: 2.5em;
     text-decoration: none;
     color: blue;
     position: relative;
